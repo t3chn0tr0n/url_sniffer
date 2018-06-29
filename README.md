@@ -2,7 +2,7 @@
 A url finder from any text/plain file 
 
 ## Blog:
-When I write a blog link will be posted here! :)
+https://technotronsite.wordpress.com/2018/06/30/url_sniffer-the-blog/
 
 ## Credits:
 The regex used has been blindly copied from GeeksforGeeks' regex example (https://www.geeksforgeeks.org/tag/python-regex/)  
@@ -16,7 +16,7 @@ A Note to Windows users: Make sure Python is added to path
 
 
 ## Usage:
-### Installation:  
+### Installation: [**setup.py is not yet done, use Windows users guide to use this for now] 
 #### Linux users, run this command:  
 ```$ git clone https://github.com/t3chn0tr0n/url_sniffer.git && cd url_sniffer && chmod +x setup.py && ./setup.py```  
 
