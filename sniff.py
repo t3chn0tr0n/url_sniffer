@@ -1,4 +1,4 @@
-#! usr/bin/python3
+#!/usr/bin/env python3
 import sys
 import re
 import os
@@ -64,7 +64,7 @@ def get_path(path=""):
             main(path)
             break
         else:
-            print("No file found at the Path give!")
+            print("No file found at the Path given!")
 
 
 try:
@@ -77,3 +77,4 @@ try:
     print("\nOperation completed!\n")
 except:
     print("\nERROR! Operation could not be completed!\n")
+
