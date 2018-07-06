@@ -18,7 +18,8 @@ A Note to Windows users: Make sure Python is added to path
 ## Usage:
 ### Installation: 
 #### (Linux users only):  
-```$ git clone https://github.com/t3chn0tr0n/url_sniffer.git && cd url_sniffer && chmod +x setup.py && ./setup.py && rm -rf url_sniffer && exit```   
+```$ git clone https://github.com/t3chn0tr0n/url_sniffer.git && cd url_sniffer && chmod +x setup.py && ./setup.py && cd .. && rm -rf url_sniffer && exit```   
+
 
 From next time just use `sniffurl` followed by the "path/to/file" you want to sniff for urls, like:    
 ```$ sniffurl path/to/file```  
