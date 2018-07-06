@@ -34,7 +34,7 @@ Now extract it where you want to use/keep!
 If you have Python3 installed and added to path, open cmd.exe, and type:  
 ```> cd path/where/you/extracted/ && python sniff.py path/to/file```  
 
-## Few known bugs and solution:  
+## Few known bugs and solutions:  
 1. Any emoticon symbols may cause error! remove the manually if so!
 2. Since it was developed over Windows and Linux platform, problems with encoding may arrise.  
    Use a program called 'dos2unix' to fix it! Use:  

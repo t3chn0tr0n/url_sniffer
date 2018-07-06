@@ -19,14 +19,10 @@ if confirm == 'Y' or confirm == 'y':
     os.system("chmod +x " + path_to_installation_dir + "/sniff.py")
 
     # add to path
-    os.system('echo "# Url_sniffer settings" >> ' + bashrc) 
+    os.system('echo "# Url_sniffer settings" >> ' + bashrc)
     os.system(('''echo 'alias sniffurl="python3 ''' + path_to_installation_dir + '''/sniff.py"' >> ''' + bashrc))
     os.system('echo "case $- in *i*) . ~/.bash_aliases;; esac" >> ~/.bash_profile')
-
     print("Installation complete!")
 
 else:
     print("Installation Aborted!")
-
-
-
