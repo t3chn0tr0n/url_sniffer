@@ -1,46 +1,56 @@
 # url_sniffer
-A url finder from any text/plain file 
 
-## Blog:
+A url finder from any text/plain file
+
+## Blog
+
 https://technotronsite.wordpress.com/2018/06/30/url_sniffer-the-blog/
 
-## Credits:
+## Credits
+
 The regex used has been blindly copied from GeeksforGeeks' regex example (https://www.geeksforgeeks.org/tag/python-regex/)  
 So, major credit goes to them.  
-This is just a CLI app for the same.  
+This is just a CLI app for the same.
 
-## Dependency:
+## Dependency
+
 Only one that Python3 is installed and all the standard Libraries are available.  
 If not please go ahead and install.  
 A Note to Windows users: Make sure Python is added to path
 
+## Usage
 
-## Usage:
-### Installation: 
-#### Linux users, run this command:  
-```$ git clone https://github.com/t3chn0tr0n/url_sniffer.git && cd url_sniffer && chmod +x setup.py && ./setup.py```  
+### Installation
 
+#### Linux users, run this command
 
-From next time just use `sniffurl` followed by the "path/to/file" you want to sniff for urls, like:    
-```$ sniffurl path/to/file```  
+(What you are doing: Downloading the files and giving the main file executable status.)
 
+`$ git clone https://github.com/t3chn0tr0n/url_sniffer.git && cd url_sniffer && chmod +x setup.py && ./setup.py`
 
-You can either save the output in a file, or the result will be displayed anyway!  
+From next time just use `sniffurl` followed by the "path/to/file" you want to sniff for urls, like:  
+`$ sniffurl path/to/file`
 
-#### Windows users:
+You can either save the output in a file, or the result will be displayed anyway!
+
+#### Windows users
+
 Sorry, but no installation available for you guys!  
 Download the zip file.  
-Now extract it where you want to use/keep!  
+Now extract it where you want to use/keep!
+(You can delete other files, except `sniff_in_windows.py`.)
 If you have Python3 installed and added to path, open cmd.exe, and type:  
-```> cd path/where/you/extracted/ && python sniff.py path/to/file```  
+`> cd path/where/you/extracted/ && python sniff_in_windows.py path/to/file`
 
-## Few known bugs and solutions:  
+## Few known bugs and solutions
+
 1. Any emoticon symbols may cause error! remove the manually if so!
-2. Since it was developed over Windows and Linux platform, problems with encoding may arrise.  
+2. Since it was developed over Windows and Linux platform, problems with encoding may arise.  
    Use a program called 'dos2unix' to fix it! Use:  
-   ```$ dos2unix ~/.url_sniffer/url_sniffer/sniff.py```
+   `$ dos2unix ~/.url_sniffer/url_sniffer/sniff.py`
 
 ## Last Things last
+
 This piece of software is still in development!  
 Expect bugs!  
-Please comment if any bug is found! 
+Please comment if any bug is found!
