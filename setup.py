@@ -8,8 +8,7 @@ if confirm == 'Y' or confirm == 'y':
     # handling all the directories gracefully
     cwd = os.getcwd()
     path_to_sniff = cwd + "/sniff.py"
-    if os.path.isdir("~/.url_sniffer"):
-        os.system("mkdir  ~/.url_sniffer")
+    os.system("mkdir  ~/.url_sniffer")
     path_to_installation_dir = "~/.url_sniffer/url_sniffer"
     command_to_copy = "cp -R " + cwd + " " + path_to_installation_dir + "/"
     bashrc = "~/.bash_aliases"
